@@ -1,0 +1,124 @@
+#css-zen-garden{
+	background: #e8eef6;
+}
+header{
+	background: url(header.jpg);
+}
+header h1{
+	margin: 0 auto;
+	padding: 50px 0 10px 0;
+	/*border:1px solid #000;*/
+	text-align:center;
+	font-size: 60px;
+}
+header h2{
+	padding: 20px 0 30px 0;
+	/*border:1px solid #000;*/
+	text-align:center;
+	font-size: 20px;
+	color: #593a2b;
+}
+
+.preamble{
+	width: 80%;
+	margin:0 auto;
+	margin-top: 30px;
+	padding: 15px;
+	font-size: 1.2em;
+	line-height: 1.5;
+	text-align: center;
+	background: #83d3c9;	
+}
+.summary{
+	width: 40%;
+	margin: 0 auto;
+	margin-top: 30px;
+	text-align: center;
+}
+.summary a{
+	display: inline-block;
+	padding: 1px 10px 1px 10px;
+	margin: -1px -10px -1px -10px;
+}
+.summary a:hover{
+	background-color:#83d3c9;
+}
+
+
+#zen-supporting{
+	width: 50%;
+	float: left;
+	margin-top: 30px;
+	margin-left: 10%;
+	line-height: 1.5;
+	/*border:1px solid #000;*/
+	background: #e8eef6;
+}
+.explanation,.participation,.benefits,.requirements{
+	display: block;
+	margin:10px 0 0 10px;
+}
+
+.sidebar{
+	width: 25%;
+	float: left;
+	margin-top: 50px;
+	margin-left: 80px;
+	padding: 10px;
+	/*border:1px solid #000;*/
+}
+.sidebar h3{
+	text-align: center;
+	font-family: Corbel,Georgia;
+	padding-top: 10px;
+	color: #ffffff;
+}
+.sidebar a{
+	color: #ffffff;
+}
+.sidebar ul{
+	list-style: none;
+}
+.sidebar li{
+	padding-bottom: 20px;
+	color: #36857b;
+}
+
+.design-selection{
+	margin-top: 50px;
+	background: url(side1.jpg) ;
+	background-size:cover;
+	border-radius: 30px;
+}
+.design-archives{
+	margin-top: 50px;
+}
+.design-archives a{
+	color: #36857b;
+}
+.design-archives h3{
+	color: #36857b;
+}
+
+.zen-resources{
+	margin-top: 50px;
+	background: url(side3.jpg);
+	background-size:cover;
+	border-radius: 30px;
+}
+
+footer{
+	margin:30 auto;
+	text-align: center;
+}
+footer a{
+	margin:10px;
+	padding:10px;
+	padding-top: 15px;
+	display: inline-block;
+	height: 50px;
+	width: 50px;
+	color: #ffffff;
+	background: url(footer.png);
+	background-size: cover;
+}
